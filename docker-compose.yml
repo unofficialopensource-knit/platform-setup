@@ -1,0 +1,28 @@
+version: "3.8"
+
+networks:
+    postgres:
+    redis:
+
+services:
+    postgres:
+        image: postgres:13.2
+        environment:
+            POSTGRES_USER: devuser
+            POSTGRES_PASSWORD: devpassword
+        networks:
+            - postgres
+        volumes:
+            - postgres-data:/var/lib/postgresql/data
+
+    redis:
+        command: redis-server --requirepass devpassword
+        image: redis:6.2.3-alpine
+        networks:
+            - redis
+        volumes:
+            - redis-data:/var/lib/redis/data
+
+volumes:
+    postgres-data:
+    redis-data:
