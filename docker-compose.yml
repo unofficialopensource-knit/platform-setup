@@ -2,7 +2,9 @@ version: "3.8"
 
 networks:
     postgres:
+        name: postgres
     redis:
+        name: redis
 
 services:
     postgres:
@@ -25,4 +27,6 @@ services:
 
 volumes:
     postgres-data:
+        name: postgres
     redis-data:
+        name: redis
