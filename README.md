@@ -1,8 +1,8 @@
 platform_setup
 ==============
 
-[![DeepSource](https://deepsource.io/gh/unofficialopensource-knit/platform-setup.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/unofficialopensource-knit/platform-setup/?ref=repository-badge)
-[![CodeFactor](https://www.codefactor.io/repository/github/unofficialopensource-knit/platform-setup/badge)](https://www.codefactor.io/repository/github/unofficialopensource-knit/platform-setup)
+[![DeepSource](https://deepsource.io/gh/unofficialopensource-knit/platform_setup.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/unofficialopensource-knit/platform_setup/?ref=repository-badge)
+[![CodeFactor](https://www.codefactor.io/repository/github/unofficialopensource-knit/platform_setup/badge)](https://www.codefactor.io/repository/github/unofficialopensource-knit/platform_setup)
 
 ### Intro
 This repo is to be used for setting up system service dependency for any project.
