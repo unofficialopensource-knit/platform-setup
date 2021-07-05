@@ -3,7 +3,9 @@ CREATE USER wikiuser WITH ENCRYPTED PASSWORD 'wikipassword';
 GRANT ALL PRIVILEGES ON DATABASE wiki TO wikiuser;
 ALTER DATABASE wiki OWNER TO wikiuser;
 
-CREATE DATABASE email;
-CREATE USER emailuser WITH ENCRYPTED PASSWORD 'emailpassword';
-GRANT ALL PRIVILEGES ON DATABASE email TO emailuser;
-ALTER DATABASE email OWNER TO emailuser;
+CREATE DATABASE backend;
+CREATE DATABASE backend-test;
+CREATE USER backenduser WITH ENCRYPTED PASSWORD 'backendpassword';
+GRANT ALL PRIVILEGES ON DATABASE backend TO backenduser;
+GRANT ALL PRIVILEGES ON DATABASE backend-test TO backenduser;
+ALTER DATABASE backend OWNER TO backenduser;
